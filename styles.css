@@ -6,18 +6,18 @@ body {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("assets/img/hero-mobile.jpg") center / cover no-repeat;
+  background: url("./assets/img/hero-mobile.jpg") center / cover no-repeat;
   color: #333;
 }
 
 @media (min-width: 768px) {
   #hero {
-    background: url("assets/img/hero.jpg") center / cover no-repeat;
+    background: url("./assets/img/hero.jpg") center / cover no-repeat;
   }
 }
 
 .navbar-light .navbar-brand {
-  background: url("assets/img/logo.svg") center / 100% no-repeat;
+  background: url("./assets/img/logo.svg") center / 100% no-repeat;
   width: 150px;
   height: 40px;
 }
